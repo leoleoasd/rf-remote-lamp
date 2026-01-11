@@ -1,0 +1,14 @@
+{
+  "domain": "rf_remote_lamp",
+  "name": "RF Remote Lamp",
+  "version": "1.0.0",
+  "documentation": "https://github.com/leoleoasd/rf-remote-lamp",
+  "issue_tracker": "https://github.com/leoleoasd/rf-remote-lamp/issues",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": [
+    "@leoleoasd"
+  ],
+  "requirements": [],
+  "iot_class": "assumed_state"
+}

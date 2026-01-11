@@ -1,0 +1,37 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add RF Remote Lamp",
+        "description": "Configure a lamp controlled via RF remote.",
+        "data": {
+          "lamp_name": "Lamp Name",
+          "remote_entity": "Remote Entity",
+          "device_name": "Device Name (as configured in your remote)",
+          "brightness_levels": "Brightness Levels (optional, e.g. 6 for 6-level dimming)",
+          "cct_levels": "CCT Levels (optional, e.g. 4 for 4-level color temperature)"
+        }
+      }
+    },
+    "error": {
+      "remote_not_found": "The specified remote entity was not found."
+    },
+    "abort": {
+      "already_configured": "This lamp is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configure RF Remote Lamp",
+        "data": {
+          "lamp_name": "Lamp Name",
+          "remote_entity": "Remote Entity",
+          "device_name": "Device Name (as configured in your remote)",
+          "brightness_levels": "Brightness Levels (optional, e.g. 6 for 6-level dimming)",
+          "cct_levels": "CCT Levels (optional, e.g. 4 for 4-level color temperature)"
+        }
+      }
+    }
+  }
+}

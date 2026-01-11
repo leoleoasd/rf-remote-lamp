@@ -1,0 +1,8 @@
+{
+  "name": "RF Remote Lamp",
+  "domains": [
+    "light"
+  ],
+  "iot_class": "assumed_state",
+  "homeassistant": "2023.1.0"
+}
