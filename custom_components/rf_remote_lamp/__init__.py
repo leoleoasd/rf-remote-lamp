@@ -47,7 +47,7 @@ async def _async_update_listener(hass: HomeAssistant, entry: ConfigEntry) -> Non
     # Prevent infinite reload loop
     if entry.entry_id in _reloading:
         return
-    
+
     _reloading.add(entry.entry_id)
     try:
         await hass.config_entries.async_reload(entry.entry_id)

@@ -92,7 +92,7 @@ class RfRemoteLampOptionsFlow(config_entries.OptionsFlow):
         if user_input is not None:
             # Clean up None values from optional fields
             clean_data = {k: v for k, v in user_input.items() if v is not None}
-            
+
             # Update entry.data directly (not just options)
             self.hass.config_entries.async_update_entry(
                 self.config_entry,

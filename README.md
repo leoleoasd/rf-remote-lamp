@@ -89,6 +89,7 @@ template:
 ```
 
 You can replace it with this integration by configuring:
+
 - **Lamp Name**: `Living Room Lamp`
 - **Remote Entity**: `remote.living_room`
 - **Device Name**: `living room lamp`

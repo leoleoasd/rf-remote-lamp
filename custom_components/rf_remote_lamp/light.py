@@ -78,7 +78,7 @@ class RfRemoteLampLight(LightEntity, RestoreEntity):
         self._brightness_levels = int(brightness_levels) if brightness_levels else None
         self._cct_levels = int(cct_levels) if cct_levels else None
         self._is_on = False
-        
+
         # Current brightness level (1 to brightness_levels), assume full brightness initially
         self._brightness_level = self._brightness_levels if self._brightness_levels else None
         # Current CCT level (1 to cct_levels), assume level 1 initially (warm)
@@ -90,7 +90,7 @@ class RfRemoteLampLight(LightEntity, RestoreEntity):
 
         # Set color mode based on features
         self._attr_supported_color_modes = set()
-        
+
         if self._brightness_levels and self._cct_levels:
             self._attr_supported_color_modes.add(ColorMode.COLOR_TEMP)
             self._attr_color_mode = ColorMode.COLOR_TEMP

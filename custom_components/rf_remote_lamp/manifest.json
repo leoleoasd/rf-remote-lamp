@@ -6,9 +6,7 @@
   "issue_tracker": "https://github.com/leoleoasd/rf-remote-lamp/issues",
   "dependencies": [],
   "config_flow": true,
-  "codeowners": [
-    "@leoleoasd"
-  ],
+  "codeowners": ["@leoleoasd"],
   "requirements": [],
   "iot_class": "assumed_state"
 }
